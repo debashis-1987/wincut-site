@@ -235,6 +235,7 @@ h3 { font-size: 1.18rem; font-weight: 650; margin-bottom: 0.5rem; }
   background: rgba(5, 9, 17, 0.92); backdrop-filter: blur(8px);
   display: flex; align-items: center; justify-content: center; padding: 3vmin;
 }
+.lightbox[hidden] { display: none; }
 .lightbox img { max-width: 96vw; max-height: 88vh; border-radius: 12px; box-shadow: var(--shadow); }
 .lightbox-close {
   position: absolute; top: 22px; right: 30px;

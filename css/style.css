@@ -163,6 +163,7 @@ h3 { font-size: 1.18rem; font-weight: 650; margin-bottom: 0.5rem; }
 
 /* ---------- Gallery ---------- */
 .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; margin-top: 3rem; }
+.shot:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .shot {
   position: relative; border-radius: var(--radius); overflow: hidden;
   border: 1px solid var(--border); background: none; padding: 0; cursor: zoom-in;

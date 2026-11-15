@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WinCut — Cut video. Keep the quality. Lose nothing.</title>
-  <meta name="description" content="WinCut is a fast, private video and audio cutter for Windows. Frame-accurate smart cut, lossless export, batch queue — fully offline, no telemetry, free." />
+  <meta name="description" content="WinCut is a fast, private video and audio cutter for Windows. Frame-accurate smart cut, lossless export, batch queue, background-noise removal, split-on-silence and loudness normalization — fully offline, no telemetry, free." />
   <meta property="og:title" content="WinCut — the fast, private video cutter for Windows" />
-  <meta property="og:description" content="Frame-accurate smart cut, lossless export, batch queue. Fully offline. Free." />
+  <meta property="og:description" content="Frame-accurate smart cut, lossless export, batch queue, background-noise removal and audio cleanup. Fully offline. Free." />
   <meta property="og:image" content="https://debashis-1987.github.io/wincut-site/assets/logo.png" />
   <link rel="icon" type="image/png" href="/wincut-site/assets/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,7 +49,8 @@
         <p class="lead">
           WinCut is the fast, private cutter for video and audio. Mark what you want
           on a visual timeline and export — <strong>instantly and losslessly</strong>,
-          or with frame-exact precision. Fully offline. Free.
+          or with frame-exact precision. Clean up noisy audio, split on silence and
+          normalize loudness too. Fully offline. Free.
         </p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="https://apps.microsoft.com/detail/9N96MFK2TNHK" target="_blank" rel="noopener">
@@ -103,9 +104,9 @@
           <p>Stream-copy cuts finish in seconds with zero quality loss. Perfect when keyframe boundaries don't matter.</p>
         </article>
         <article class="card reveal">
-          <div class="icon">🎵</div>
-          <h3>Audio tools built in</h3>
-          <p>Remove audio from any video, or extract it as MP3, FLAC, WAV, M4A or Opus. One click.</p>
+          <div class="icon">🎧</div>
+          <h3>Make audio sound great</h3>
+          <p>Remove background noise in one click (Low / Medium / High), split on silence, and normalize loudness to -16 LUFS. Slow-motion and timelapse keep audio pitch-corrected — and you can still mute or extract any track.</p>
         </article>
         <article class="card reveal delay-1">
           <div class="icon">📚</div>
@@ -240,6 +241,18 @@
         <details class="faq-item reveal">
           <summary>Can I join multiple videos into one?</summary>
           <p>Yes — the Join feature combines files in the order you choose. Files with matching parameters are joined losslessly in seconds; mismatched files are automatically normalized first. WinCut tells you exactly what will happen before you start.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Can it remove background noise from my recordings?</summary>
+          <p>Yes — one toggle with Low, Medium or High strength. It cleans steady fan/hiss/AC noise and adds a gentle high-pass rumble filter. It works in Re-encode and Smart cut modes; in Smart cut the video stays stream-copied and only the audio is re-encoded.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Can it split or remove silent parts automatically?</summary>
+          <p>Yes — "Split on silence" detects quiet gaps (adjustable threshold and minimum length), previews them, then either removes them from the export or splits your keep segments at their boundaries. It's fully undoable with Ctrl+Z.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Can I normalize loudness or change the playback speed?</summary>
+          <p>Yes — normalize loudness to the -16 LUFS podcast/broadcast standard with one checkbox, and export slow-motion or timelapse from 0.25× to 4× with pitch-corrected audio.</p>
         </details>
         <details class="faq-item reveal">
           <summary>Will it run on my PC?</summary>
